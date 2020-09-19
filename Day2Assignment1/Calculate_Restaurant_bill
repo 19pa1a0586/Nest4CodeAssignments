@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class CalResBill {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Price 1: ");
+        double p1 = in.nextDouble();
+        System.out.print("Price 2: ");
+        double p2 = in.nextDouble();
+        System.out.print("Price 3: ");
+        double p3 = in.nextDouble();
+        System.out.print("tax %: ");
+        double tax = in.nextDouble();
+
+        double sum = p1+p2+p3;
+        double taxAmount = (tax/100)*sum;
+
+        System.out.println("Final Amount: "+(taxAmount+sum));
+
+    }
+}
+
+Example 1:
+
+Price 1: 70
+Price 2: 20
+Price 3: 10
+tax %: 18
+Final Amount: 118.0
+
+Example 2:
+
+Price 1: 14.5
+Price 2: 8
+Price 3: 5.5
+tax %: 4
+Final Amount: 29.12

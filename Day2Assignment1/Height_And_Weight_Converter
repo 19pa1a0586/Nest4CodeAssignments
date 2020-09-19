@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class HeigAndWeigConv {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Feet: ");
+        int feet = in.nextInt();
+        System.out.print("Inch: ");
+        int inch = in.nextInt();
+        System.out.print("Kg: ");
+        int kg = in.nextInt();
+
+        System.out.println("Height in cm "+((feet*12*2.54)+(inch*2.54)));
+        System.out.format("Weight in pounds %.1f",(kg*2.2));
+    }
+}
+
+
+Example 1:
+
+Feet: 5
+Inch: 11
+Kg: 60
+Height in cm 180.34
+Weight in pounds 132.0
+
+Example 2:
+
+Feet: 8
+Inch: 9
+Kg: 50
+Height in cm 266.7
+Weight in pounds 110.0

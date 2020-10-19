@@ -1,4 +1,4 @@
 # Nest4CodeAssignments
 
 # YouTube Video
-[![ML2021_Python_Bot_Project](https://yt-embed.herokuapp.com/embed?v=uQLwMbKEmrs&feature=youtu.be)](https://www.youtube.com/watch?v=uQLwMbKEmrs&feature=youtu.be "ML2021_Python_Bot_Project")
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/uQLwMbKEmrs/0.jpg)](https://www.youtube.com/watch?v=uQLwMbKEmrs)
